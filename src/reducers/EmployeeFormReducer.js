@@ -23,3 +23,12 @@ export default (state = INITIAL_STATE, action) => {
 			return state;
 	}
 };
+
+
+
+// Notes from EmployeeFormReducer
+
+			// payload will look like:
+			// action.payload === { prop: 'name', value: 'jane' }
+
+			// Square braces are not an array it is key interpolation
